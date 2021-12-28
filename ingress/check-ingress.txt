@@ -1,0 +1,1 @@
+curl -kv https://secure-ingress.com:31523/service2 --resolve secure-ingress.com:31523:192.168.1.225
