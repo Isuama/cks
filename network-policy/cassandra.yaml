@@ -5,6 +5,7 @@ metadata:
   labels:
     run: cassandra
   name: cassandra
+  namespace: cassandra
 spec:
   containers:
   - image: nginx
@@ -21,6 +22,7 @@ metadata:
   labels:
     run: cassandra
   name: cassandra
+  namespace: cassandra
 spec:
   ports:
   - port: 80
